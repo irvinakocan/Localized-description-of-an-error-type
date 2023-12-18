@@ -22,7 +22,7 @@ extension NetworkError: LocalizedError {
             return NSLocalizedString("There is a problem with a URL, such as an invalid URL or a timeout.", comment: "Invalid URL")
             
         case .httpConnectionError:
-            return NSLocalizedString("There is an issue with an HTTP request or there is no internet connection", comment: "HTTP/Connection Error")
+            return NSLocalizedString("There is an issue with the HTTP request or there is no internet connection.", comment: "HTTP/Connection Error")
             
         case .invalidResponseError(let code):
             return NSLocalizedString("The server responds with an unexpected format with the status code \(code).", comment: "Invalid Response Error")
