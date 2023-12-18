@@ -12,8 +12,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        Task {
+            do {
+                let users = try await getUsers()
+                print("Data fetching was sucessful. \nHere are all the users: \n")
+                users.forEach({
+                    print($0.name)
+                })
+            }
+            catch {
+                print(error.localizedDescription)
+            }
+        }
     }
-
-
 }
 
