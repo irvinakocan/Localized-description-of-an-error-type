@@ -15,6 +15,7 @@
 		2421FEE52B30CAEF00FCE10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2421FEE32B30CAEF00FCE10F /* LaunchScreen.storyboard */; };
 		2421FEED2B30CC8100FCE10F /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421FEEC2B30CC8100FCE10F /* CustomErrors.swift */; };
 		2421FEEF2B30CD3400FCE10F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421FEEE2B30CD3400FCE10F /* Models.swift */; };
+		2421FEF12B30CDD900FCE10F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421FEF02B30CDD900FCE10F /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2421FEE62B30CAEF00FCE10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2421FEEC2B30CC8100FCE10F /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 		2421FEEE2B30CD3400FCE10F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2421FEF02B30CDD900FCE10F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				2421FEDA2B30CAE900FCE10F /* SceneDelegate.swift */,
 				2421FEEC2B30CC8100FCE10F /* CustomErrors.swift */,
 				2421FEEE2B30CD3400FCE10F /* Models.swift */,
+				2421FEF02B30CDD900FCE10F /* Networking.swift */,
 				2421FEDC2B30CAE900FCE10F /* ViewController.swift */,
 				2421FEDE2B30CAEA00FCE10F /* Main.storyboard */,
 				2421FEE12B30CAEF00FCE10F /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				2421FEDD2B30CAE900FCE10F /* ViewController.swift in Sources */,
 				2421FEED2B30CC8100FCE10F /* CustomErrors.swift in Sources */,
 				2421FED92B30CAE900FCE10F /* AppDelegate.swift in Sources */,
+				2421FEF12B30CDD900FCE10F /* Networking.swift in Sources */,
 				2421FEDB2B30CAE900FCE10F /* SceneDelegate.swift in Sources */,
 				2421FEEF2B30CD3400FCE10F /* Models.swift in Sources */,
 			);
