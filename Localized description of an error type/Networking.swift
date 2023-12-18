@@ -24,8 +24,10 @@ func getUsers() async throws -> [User] {
         throw NetworkError.httpConnectionError
     }
     
-    guard let response = result.response as? HTTPURLResponse, response.statusCode == 200 else {
-        throw NetworkError.invalidResponseError
+    if let response = result.response as? HTTPURLResponse {
+        if response.statusCode != 200 {
+            throw NetworkError.invalidResponseError(code: response.statusCode)
+        }
     }
     
     var users = [User]()
